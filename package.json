@@ -1,10 +1,11 @@
 {
-  "name": "@ansiversa/app-starter",
+  "name": "@ansiversa/client-feedback-analyzer",
   "version": "1.0.0",
   "private": false,
   "type": "module",
   "scripts": {
     "dev": "astro dev --remote",
+    "typecheck": "astro check",
     "build": "astro build --remote",
     "preview": "astro preview",
     "astro": "astro"
