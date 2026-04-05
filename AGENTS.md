@@ -25,6 +25,7 @@ MANDATORY: After completing each task, update this repo’s AGENTS.md Task Log (
 - Review this repo's existing AGENTS.md Task Log history before making changes.
 
 ## Task Log (Recent)
+- 2026-04-05 Adopted Landing Page Standard V1 as the pilot landing rollout: replaced the minimal public landing with the new premium section-based structure (hero, value grid, pillars, workflow, showcase, final CTA), added repo-local landing contract/component files for reuse in this pilot, and kept copy aligned to the verified local-only V1 behavior (public `/app`, localStorage draft state, grouped counts, copy actions, no server-backed workflow). Verification: `npm run typecheck` ✅, `npm run build` ✅, local dev route check for `/` confirmed the new sections and CTA markup render.
 - 2026-03-30 Populated app-spec.md with implementation-aligned V1 documentation based on freeze verification.
 - 2026-03-30 Initialized app-spec.md using standard V1 template from web repo.
 - 2026-03-29 Completed readiness repair pass after DB isolation: preserved app-specific Turso DB env, excluded `db/` from app typecheck scope, and verified `npm run typecheck`, `npm run build`, and `npm run db:push` all pass.
