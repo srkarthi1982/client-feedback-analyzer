@@ -37,11 +37,6 @@ const landingContent: LandingPageContent = {
       { value: "Public", label: "Workspace access" },
     ],
   },
-  heroStats: [
-    { value: "Browser", label: "Runs locally" },
-    { value: "Draft-safe", label: "Persists on refresh" },
-    { value: "Copy-ready", label: "Summary output" },
-  ],
   features: {
     title: "What V1 helps you do",
     lead:
@@ -63,19 +58,9 @@ const landingContent: LandingPageContent = {
           "Narrow the visible review set so copied output reflects the exact slice you want to discuss.",
       },
       {
-        title: "Edit and delete locally",
-        description:
-          "Refine the draft set directly in the browser without server-backed CRUD or user setup.",
-      },
-      {
         title: "Summary and full report copy",
         description:
           "Copy either a concise summary or a longer structured report from the current workspace state.",
-      },
-      {
-        title: "Refresh-safe draft persistence",
-        description:
-          "Local draft state survives refresh in the same browser until you reset it intentionally.",
       },
     ],
   },
@@ -137,7 +122,6 @@ const landingContent: LandingPageContent = {
     bullets: [
       "Best for batch review, stakeholder prep, and structured recap drafting",
       "Useful when you need grouped signals before writing a final recommendation",
-      "No DB, collaboration layer, or server-backed report sharing in current V1",
     ],
     calloutLabel: "V1 boundary",
     calloutValue: "Local-only draft workspace",
